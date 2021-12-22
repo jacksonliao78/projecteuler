@@ -8,4 +8,4 @@ def work(num):
     
 
 if __name__ == "__main__":
-    work(10000)
+    work(1000)
