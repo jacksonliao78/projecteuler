@@ -7,6 +7,5 @@ def work(num):
 
     print(sum)
     
-
 if __name__ == "__main__":
     work(1000)
