@@ -1,4 +1,3 @@
-
 def work(num):
     sum = 0
     for n in range(0, num):
@@ -7,5 +6,6 @@ def work(num):
 
     print(sum)
     
+
 if __name__ == "__main__":
     work(1000)

@@ -8,5 +8,3 @@ for b in range(a, 100, -1):
         if pos == pos[::-1]:
            palin.append(pos)
 print(max(palin))
-        
-   
