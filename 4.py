@@ -6,5 +6,5 @@ for b in range(a, 100, -1):
         d = b * c        
         pos = str(d)
         if pos == pos[::-1]:
-           palin.append(pos)
+           palin.append(int(pos))
 print(max(palin))
