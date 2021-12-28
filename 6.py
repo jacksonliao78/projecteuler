@@ -10,4 +10,3 @@ for i in range(1, x + 1, +1):
     sum2 += i
 sum3 = sum2 * sum2
 print(sum3 - sum)
-
