@@ -8,7 +8,9 @@ def prod(n):
         return n
     return(n % 10 * prod(n / 10))
 for i in range(1, 1000):
-    pos.append(int(prod(num[a:b]))
+    x = str(num)
+    y = x[a:b]
+    pos.append(prod(int(y)))
     a += 1
     b += 1
 print(max(pos))
