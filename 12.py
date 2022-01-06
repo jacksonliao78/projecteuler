@@ -25,11 +25,12 @@ n = 2
 tot = 1
 
 while switch != 1:
-    if check(tot) > 30:
+    if check(tot) > 200:
         print(tot)
         switch = 1
     tot += n
     n += 1
+  
 
 
     
