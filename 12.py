@@ -1,24 +1,33 @@
 
+import math
 
 def check(n):
-    divs = 0
-    for i in range(1, n):
-        if n % i == 0:
-            divs += 1
-            if divs == 501:
-                return True
-            continue
-    return False
+    divs = 1
+    count2 = 1
+    count3 = 1
+    temp = n
+    while n % 2 == 0:
+        n = n / 2
+        count2 += 1
+    divs *= count2
     
-            
-bruh = 0
+    for i in range(3, temp / 2, +2):
+        while n % i == 0:
+            n = n / i
+            count3 += 1
+        divs *= count3
+        count3 = 1
+    return divs
+        
+
+switch = 0
 n = 2
 tot = 1
 
-while bruh != 1:
-    if check(tot) == True:
+while switch != 1:
+    if check(tot) > 30:
         print(tot)
-        bruh = 1
+        switch = 1
     tot += n
     n += 1
 
