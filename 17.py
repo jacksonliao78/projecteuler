@@ -12,16 +12,16 @@ def conversion(n):
     elif 100 <= n < 1000 and n % 100 == 0:
         return lowests[n / 100] + "hundred"
     elif 100 < n < 1000:
-        return lowests[n // 100] + "hundredand" + conversion(n % 10)
+        return lowests[n // 100] + "hundredand" + conversion(n % 100)
     elif n == 1000:
         return "onethousand"
     
 count = 0 
 
 for i in range(1, 1001):
-    print(conversion(i))
     count += len(conversion(i))
 print(count)
+
 
 
 
