@@ -23,4 +23,4 @@ def solve(triangle):
     
     print(triangle[0][0])
 
-solve(triangle)
+
