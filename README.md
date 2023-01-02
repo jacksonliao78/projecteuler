@@ -1,1 +1,1 @@
-a place to keep track of all code for projecteuler.net
+code for project euler O_O
