@@ -16,4 +16,6 @@ def solve(names):
         pos += 1
     print(tot)
 
-solve(thing)
+solve(thing) # -> 871198282
+
+thing.close()
