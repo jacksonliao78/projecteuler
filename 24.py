@@ -33,7 +33,6 @@ def solve(num):
         start += 1
     print(start - 1)
 
-
 #makes use of itertools (permutations())    
 #10 is length of tuple, joins the tuple and sorts the tuples
 
