@@ -1,18 +1,3 @@
-#whoopee
-.DS_Store
-
-#big things
-Applications/
-Desktop/
-Documents/
-Library/
-Movies/
-Music/
-Pictures/
-Public/
-ScrViewImages/
-Sites/
-
 #VSCode things
 .vscode/*
 !.vscode/settings.json
