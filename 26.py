@@ -4,3 +4,5 @@ def solve():
         print(1 / i)
 
 solve()
+
+#test
