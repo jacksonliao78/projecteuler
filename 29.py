@@ -7,4 +7,4 @@ def solve():
     vals = list(set(vals))
     print(len(vals))
 
-solve()
+solve() # -> 9183
