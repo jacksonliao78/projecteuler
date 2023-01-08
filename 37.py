@@ -31,4 +31,4 @@ def solve():
                 tot += i
     print(tot)
 
-solve()
+solve() # -> 748317
