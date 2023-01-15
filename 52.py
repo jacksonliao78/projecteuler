@@ -21,4 +21,4 @@ def solve():
             print(i)
             break
         
-solve()
+solve() # -> 142857

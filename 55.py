@@ -19,5 +19,5 @@ def solve():
             count += 1
     print(count)
 
-solve()
+solve() # -> 249
 
